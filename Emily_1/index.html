@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Emily</title>
+    </head>
+    <style>
+        body{
+            color:rgb(116,146,201);
+            margin-left:8vw;
+            margin-right: 8vw;
+            margin-top: 60px;
+            background-color: rgb(255,239,168);
+        }
+
+        .column{
+            display:flex;
+            justify-content: space-between;
+            font-size: large;
+        }
+
+        h1, h2{
+            transform: scale(1);
+            transition: transform 0.1 ease-in-out;
+        }
+
+        h1:hover{
+            color:rgb(255,187,0);
+            transform: scale(1.3);
+        }
+
+        h2:hover{
+            color:rgb(255,190,69);
+            transform: scale(1.2);
+        }
+
+        #lightoff{
+            opacity: 0;
+        }
+
+        #lightoff:hover{
+            opacity:1;
+            transition: opacity 0.1s ease;
+        }
+
+
+        img{
+            position: absolute;
+            top: 550px;
+            left:50%;
+            transform: translate(-50%,-50%);
+            max-width:100%;
+            max-height: 100%;
+        }
+
+        .column h1, .column h2{
+            margin:0;
+        }
+    </style>
+
+    <body>
+        <div class="column">
+            <h1>EMILY SUN</h1>
+            <h2>Interaction</h2>
+            <h2>Typography</h2>
+            <h2>Animation</h2>
+            <h2>Contact</h2>
+        </div>
+        <div>
+            <img src="1.jpg">
+            <img src="2.jpg" id="lightoff">
+        </div>
+    </body>
+</html>
