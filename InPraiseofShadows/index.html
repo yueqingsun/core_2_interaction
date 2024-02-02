@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阴翳礼赞</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left, .right{
+            flex:1;
+            display:flex;
+            align-items:center;
+            justify-content:center ;
+            text-align: center;
+        }
+
+        .vertical{
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            white-space: nowrap;
+            font-size: 15vh;
+            letter-spacing: 60px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+
+        h2{
+            font-size: 4vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <h2>In Praise of Shadows</h2>
+    </div>
+    <div class="right">
+        <h2>Jun'ichiro Tanizaki</h2>
+    </div>
+    <div class="vertical">阴翳礼赞</div>
+        
+</body>
