@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/rzy1vjy.css">
         <title>Emily</title>
     </head>
     <style>
@@ -13,6 +14,9 @@
             margin-right: 8vw;
             margin-top: 60px;
             background-color: rgb(255,239,168);
+            font-family: "signo", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
 
         .column{
@@ -58,6 +62,30 @@
         .column h1, .column h2{
             margin:0;
         }
+
+        .interaction{
+            position: absolute;
+            top: 1000px;
+            left:10%;
+            max-width:100%;
+            max-height: 100%;
+        }
+
+        summary{
+            font-size: x-large;
+        }
+
+        a {
+            color: inherit; /* 使用继承的颜色，保持原色 */
+            text-decoration: none; /* 去除下划线，可以根据需要添加 */
+        }
+
+        /* 设置超链接的悬停样式 */
+        a:hover {
+            text-decoration: underline; /* 鼠标悬停时显示下划线，可以根据需要添加 */
+        }
+
+
     </style>
 
     <body>
@@ -71,6 +99,14 @@
         <div>
             <img src="1.jpg">
             <img src="2.jpg" id="lightoff">
+        </div>
+        <br><br><br>
+        <div class="interaction">
+            <details>
+                <summary>Interaction</summary>
+                <a href="https://yueqingsun.github.io/core_2_interaction/exercise-1a/">exercise-1a</a><br>
+                <a href="https://yueqingsun.github.io/core_2_interaction/exercise-1b/">exercise-1b</a>
+            </details>
         </div>
     </body>
 </html>
