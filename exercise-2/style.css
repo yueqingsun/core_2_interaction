@@ -1,20 +1,18 @@
 body{
     font-family: "attic-antique", serif;
     font-style: italic;
+    letter-spacing:0.08em;
 }
 
-i{
-    font-weight: 900;
-}
-
-p{
-    font-style: normal;
-}
-
-span{
+i,span{
     font-weight: 1000;
 }
 
-legend, ol{
+p, legend, ol{
     font-style: normal;
+    letter-spacing: 0;
+}
+
+summary{
+    line-height: 2em;
 }
