@@ -2,6 +2,15 @@ body{
     font-family: "attic-antique", serif;
     font-style: italic;
     letter-spacing:0.08em;
+    width:70%;
+    margin: auto;
+    text-align: center;
+    color:rgb(119, 114, 68);
+}
+
+.stuff{
+    width:85%;
+    margin:auto
 }
 
 i,span{
