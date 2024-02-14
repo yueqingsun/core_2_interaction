@@ -1,69 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>阴翳礼赞</title>
-    <style>
-        body//{
-            margin: 0;
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Sentences Layout</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+    }
 
-        .left-half//, .right-half//{
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
+    .left-sentence, .right-sentence {
+      flex: 1;
+      text-align: center;
+    }
 
-        .vertical-text// {
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-            white-space: nowrap;
-            font-size: 100px; /* 调整字体大小 */
-            letter-spacing: 80px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
+    .left-sentence {
+      background-color: #78d4ff;
+      color: #fff;
+    }
+
+    .right-sentence {
+      background-color: #ff7878;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-    <div class="left-half">
-        <pre>In Praise of Shadows</pre>
-        <pre>
-            heikugyh,iu<pre>kuygkygk</pre>vkuygkuyg,kig
-        </pre>
-    </div>
-    <div class="right-half">
-        <h2>Jun'ich<pre>jfty</pre> Tanizaki</h2>
-    </div>
-    <div class="vertical-text">阴翳礼赞</div>
-    <div>
-        <pre>
-            <pre>啊啊啊</pre><pre>啊啊啊啊</pre><pre>啊啊啊</pre>
-        </pre>
-        <pre>
-            啊啊啊啊啊啊啊
-        </pre>
-        <pre>
-            <pre>啊啊啊<pre>aa</pre>啊啊啊啊</pre>
-            啊啊啊啊啊啊
-            <pre>aaa</pre>啊哎哎哎
-            
-        </pre>
 
+  <div class="left-sentence">
+    <p>This is the left sentence.</p>
+  </div>
 
-        <pre>
-            Tranquil thoughts drift,<pre>Code and words dance in my mind,</pre>
-            A digital calm.
-        </pre>
-    </div>
+  <div class="right-sentence">
+    <p>This is the right sentence.</p>
+  </div>
+
 </body>
 </html>
