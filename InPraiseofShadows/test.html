@@ -3,40 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Two Sentences Layout</title>
   <style>
-    body {
-      margin: 0;
-      display: flex;
-      height: 100vh;
-      align-items: center;
-    }
+.container span {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
 
-    .left-sentence, .right-sentence {
-      flex: 1;
-      text-align: center;
-    }
+#trigger:checked + .container span {
+  color: red; /* 设置悬停时的字体颜色，可根据需要调整 */
+}
 
-    .left-sentence {
-      background-color: #78d4ff;
-      color: #fff;
-    }
-
-    .right-sentence {
-      background-color: #ff7878;
-      color: #fff;
-    }
   </style>
 </head>
 <body>
-
-  <div class="left-sentence">
-    <p>This is the left sentence.</p>
+  <input type="checkbox" id="trigger">
+  <div class="container">
+    <label for="trigger"><span>A</span></label>
+    <label for="trigger"><span>B</span></label>
+    <label for="trigger"><span>C</span></label>
+    <label for="trigger"><span>D</span></label>
   </div>
-
-  <div class="right-sentence">
-    <p>This is the right sentence.</p>
-  </div>
-
+  
 </body>
 </html>

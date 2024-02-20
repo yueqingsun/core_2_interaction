@@ -8,51 +8,35 @@
 </head>
 
 <body>
-
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-
     <div class="left">
         <h2>In Praise of Shadows</h2>
     </div>
     <div class="right">
         <h2>Jun'ichiro Tanizaki</h2>
     </div>
-    <div class="vertical">
-        <b>
-            <span class="yin">阴</span>
-            <span class="yi">翳</span>
-            <span class="li">礼</span>
-            <span class="zan">赞</span>
-        </b>
+
+    <div>
+      <div id="originbg"></div>
     </div>
-    <script>
-        const columns = document.querySelectorAll('.column');
-        const body = document.body;
     
-        document.addEventListener('mousemove', (event) => {
-          const mouseY = event.clientY;
-          const windowHeight = window.innerHeight;
-          const percentage = mouseY / windowHeight;
+
+    <div class="a">
+      <div class="a1 yin">阴</div>
+      <div class="bg yinbg"></div>
+    </div>
+    <div class="a">
+      <div class="a1 yi">翳</div>
+      <div class="bg yibg"></div>
+    </div>
+    <div class="a">
+      <div class="a1 li">礼</div>
+      <div class="bg libg"></div>
+    </div>
+    <div class="a">
+      <div class="a1 zan">赞</div>
+      <div class="bg zanbg"></div>
+    </div>
+
     
-          let gradientColor,yi;
-    
-          if (percentage < 0.25) {
-            gradientColor = 'radial-gradient(circle, #78d4ff, #ffffff, #486eec)';
-            yi = 'rgb(255,255,0)';
-          } else if (percentage < 0.5) {
-            gradientColor = 'radial-gradient(circle, #ff7878, #ffffff, #792121)';
-          } else if (percentage < 0.75) {
-            gradientColor = 'radial-gradient(circle, #f3ff74, #ffffff, #ffbf1e)';
-          } else {
-            gradientColor = 'radial-gradient(circle, #fff371, #ffffff, #bef5b9)';
-          }
-    
-          body.style.background = gradientColor;
-          span.yi.color = yi;
-        });
-      </script>
-        
 </body>
+</html>
