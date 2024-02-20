@@ -40,6 +40,9 @@ p{
     margin:2%;
     opacity: 0.5;
     transition: transform 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-weight: bold;
 }
 
 .titlebuttom:hover{
@@ -182,7 +185,7 @@ p{
 #p14{
     position:absolute;
     width:30vw;
-    left:50%;
+    left:53%;
     top:380%;
     transform: translate(-50%,-50%);
 }
@@ -253,4 +256,14 @@ p{
 p::selection{
     color:#ffffff ;
     background-color: #f89088;
+}
+
+a {
+    color: inherit; /* 使用继承的颜色，保持原色 */
+    text-decoration: none; /* 去除下划线，可以根据需要添加 */
+}
+
+/* 设置超链接的悬停样式 */
+a:hover {
+    text-decoration: none; /* 鼠标悬停时显示下划线，可以根据需要添加 */
 }

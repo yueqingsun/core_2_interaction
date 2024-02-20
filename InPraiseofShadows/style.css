@@ -135,3 +135,13 @@ h2{
         height:100%;
     }
 }
+
+a {
+    color: inherit; /* 使用继承的颜色，保持原色 */
+    text-decoration: none; /* 去除下划线，可以根据需要添加 */
+}
+
+/* 设置超链接的悬停样式 */
+a:hover {
+    text-decoration: none; /* 鼠标悬停时显示下划线，可以根据需要添加 */
+}
