@@ -90,7 +90,7 @@ p{
     position:absolute;
     width:30vw;
     left:50%;
-    top:40%;
+    top:48%;
     transform: translate(-50%,-50%);
 }
 
@@ -98,7 +98,7 @@ p{
     position:absolute;
     width:30vw;
     left:30%;
-    top:76%;
+    top:80%;
     transform: translate(-50%,-50%);
 }
 
@@ -130,7 +130,7 @@ p{
     position:absolute;
     width:30vw;
     left:72%;
-    top:190%;
+    top:193%;
     transform: translate(-50%,-50%);
 }
 
