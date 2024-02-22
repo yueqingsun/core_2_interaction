@@ -208,7 +208,8 @@ p{
     background-color: #b8ceff;
 }
 
-p::selection{
+p::selection,
+span::selection{
     color:#ffffff ;
     background-color: #76b1ff;
 }

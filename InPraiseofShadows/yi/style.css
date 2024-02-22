@@ -253,7 +253,8 @@ p{
     background-color: #ffccc8;
 }
 
-p::selection{
+p::selection,
+span::selection{
     color:#ffffff ;
     background-color: #f89088;
 }
