@@ -1,3 +1,8 @@
+::selection{
+    color:#ffffff ;
+    background-color: #f89088;
+}
+
 p{
     text-align:left;
     font-size: 1.2em;
@@ -253,11 +258,7 @@ p{
     background-color: #ffccc8;
 }
 
-p::selection,
-span::selection{
-    color:#ffffff ;
-    background-color: #f89088;
-}
+
 
 a {
     color: inherit; /* 使用继承的颜色，保持原色 */

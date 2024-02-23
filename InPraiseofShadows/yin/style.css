@@ -1,3 +1,8 @@
+::selection{
+    color:#ffffff ;
+    background-color: #76b1ff;
+}
+
 p{
     text-align:left;
     font-size: 1.2em;
@@ -206,12 +211,6 @@ p{
     transform: translate(-75%, -75%) scale(1.5);
     transform-origin: 0%;
     background-color: #b8ceff;
-}
-
-p::selection,
-span::selection{
-    color:#ffffff ;
-    background-color: #76b1ff;
 }
 
 a {
