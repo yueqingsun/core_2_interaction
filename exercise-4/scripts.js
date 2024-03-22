@@ -25,6 +25,29 @@ let n2=noun[Math.floor(Math.random()*noun.length)]
 document.getElementById("n1").innerHTML = n1
 document.getElementById("n2").innerHTML = n2
 
-console.log(adj1)
-console.log(adj2)
-console.log(adj3)
+// let adj=["bald","condemned","disgusting","handsome","grumpy","horrible","jealous","lazy","mysterious","sexy","famous","narcissistic","poor","cheap","poor","proud","scary","fierce","massive"]
+
+// let adj1=adj[2]
+// let adj2=adj[9]
+// let adj3=adj[3]
+// document.getElementById("adj1").innerHTML = adj1
+// document.getElementById("adj2").innerHTML = adj2
+// document.getElementById("adj3").innerHTML = adj3
+
+// let color=["camouflage color","scarlet","transparent","muddy","worn"]
+// let knife=color[0]
+// document.getElementById("color").innerHTML = knife
+
+// let verbA=["twerk","dive","twist","creep","vowit","spit","bubble","do sit-ups"]
+// let v1=verbA[0]
+// document.getElementById("v1").innerHTML = v1
+
+// let verbB=["slap","shake","eat","wash","kill","pinch","kiss","laugh"]
+// let v2=verbB[2]
+// document.getElementById("v2").innerHTML = v2
+
+// let noun=["butt","trash","cash","seaweed","pepper","feet","sock","nail","teeth","candy","melatonin","egg","gum","gun","tougue"]
+// let n1=noun[0]
+// let n2=noun[5]
+// document.getElementById("n1").innerHTML = n1
+// document.getElementById("n2").innerHTML = n2
