@@ -1,9 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:50px;
+    background-color: rgb(51, 46, 40);
+    font-family: "komet", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
 img{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
+    margin:10px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+h1{
+    font-size: xxx-large;
+    color: rgb(255, 232, 157);
+}
+
+/* details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+} */
+
+summary{
+    display: inline-block;
+    font-size: x-large;
+    margin: 20px;
+    color: aliceblue;
+}
+
+details > summary::before {
+    content: '💿';
+}
+
+details[open] > summary::before {
+    content: '📀';
+
 }
 
 .cata{
     display: flex;
     flex-wrap: wrap;
 }
+
+#cartoons{
+    position: relative;
+    top:500px;
+    width: 500px;
+    height:900px;
+    background-color: bisque;
+}
+

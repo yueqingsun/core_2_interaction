@@ -27,8 +27,10 @@ p{
 
 span{
     color:rgb(0, 128, 133);
+    transition: 0.3s;
 }
 
 span:hover{
+    display: inline-block;
     transform: scale(1.2);
 }
