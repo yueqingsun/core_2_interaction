@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>点击按钮切换div状态示例</title>
+<style>
+/* 隐藏初始状态下的div */
+.content {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 9999;
+}
+
+/* 按钮样式 */
+.button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+.button::before {
+    content: attr(data-text); /* 使用按钮的data-text属性作为显示的文本 */
+}
+.button.active {
+    background-color: #ff0000; /* 按钮激活时改变背景色 */
+}
+
+/* 控制显示浮动div */
+#button1:checked ~ #content1,
+#button2:checked ~ #content2,
+#button3:checked ~ #content3 {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<input type="radio" id="button1" class="button" name="content-toggle" data-text="按钮1">
+<input type="radio" id="button2" class="button" name="content-toggle" data-text="按钮2">
+<input type="radio" id="button3" class="button" name="content-toggle" data-text="按钮3">
+
+<div id="content1" class="content">
+    <p>这是按钮1对应的div内容。</p>
+</div>
+<div id="content2" class="content">
+    <p>这是按钮2对应的div内容。</p>
+</div>
+<div id="content3" class="content">
+    <p>这是按钮3对应的div内容。</p>
+</div>
+
+</body>
+</html>
