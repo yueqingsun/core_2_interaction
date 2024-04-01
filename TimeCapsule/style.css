@@ -14,6 +14,7 @@ body{
 a {
     color: inherit;
     text-decoration: none; 
+    cursor: alias;
 }
 
 .cdcatalogue{
@@ -64,7 +65,7 @@ summary{
     font-size: xx-large;
     margin: 20px;
     color: aliceblue;
-    
+    cursor: pointer;
 }
 
 details > summary::before {
@@ -86,14 +87,14 @@ details[open] > summary::before {
     top:700px;
 }
 
-#cartoons,#games{
+#cartoons,#oldmusics,#movies,#games,#kpops{
     position: relative;
     /* top:800px; */
     width: auto;
     height:400px;
-    background-color: rgba(145, 145, 145, 0.288);
+    background-color: rgb(104, 88, 79);
     /* border:outset #ffeaa5 20px; */
-    /* border-radius: 30px; */
+    border-radius: 30px;
     padding: 3vw;
     margin-bottom:200px;
 }
@@ -136,9 +137,14 @@ details[open] > summary::before {
     position: absolute;
     top: 70%;
     transform: translate(0%, -50%);
-    font-size: 40px;
+    font-size: 30px;
     margin: auto;
     color:rgb(255, 255, 255)
+}
+
+audio{
+    position: relative;
+    top:-15px;
 }
 
 /* 按钮样式 */
@@ -164,10 +170,80 @@ details[open] > summary::before {
     background-color: #ff0000; /* 按钮激活时改变背景色 */
 }
 
+/* input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+} */
+
 /* 控制显示浮动div */
-#button1:checked ~ #content1,
-#button2:checked ~ #content2,
-#button3:checked ~ #content3 {
+#buttonA1:checked ~ #contentA1,
+#buttonA2:checked ~ #contentA2,
+#buttonA3:checked ~ #contentA3,
+#buttonA4:checked ~ #contentA4,
+#buttonA5:checked ~ #contentA5,
+#buttonA6:checked ~ #contentA6,
+#buttonA7:checked ~ #contentA7,
+#buttonA8:checked ~ #contentA8,
+#buttonA9:checked ~ #contentA9,
+#buttonB1:checked ~ #contentB1,
+#buttonB2:checked ~ #contentB2,
+#buttonB3:checked ~ #contentB3,
+#buttonB4:checked ~ #contentB4,
+#buttonB5:checked ~ #contentB5,
+#buttonB6:checked ~ #contentB6,
+#buttonB7:checked ~ #contentB7,
+#buttonB8:checked ~ #contentB8,
+#buttonB9:checked ~ #contentB9,
+#buttonB10:checked ~ #contentB10,
+#buttonB11:checked ~ #contentB11,
+#buttonB12:checked ~ #contentB12,
+#buttonC1:checked ~ #contentC1,
+#buttonC2:checked ~ #contentC2,
+#buttonC3:checked ~ #contentC3,
+#buttonC4:checked ~ #contentC4,
+#buttonC5:checked ~ #contentC5,
+#buttonD1:checked ~ #contentD1,
+#buttonD2:checked ~ #contentD2,
+#buttonD3:checked ~ #contentD3,
+#buttonD4:checked ~ #contentD4,
+#buttonE1:checked ~ #contentE1,
+#buttonE2:checked ~ #contentE2,
+#buttonE3:checked ~ #contentE3,
+#buttonE4:checked ~ #contentE4,
+#buttonE5:checked ~ #contentE5,
+#buttonE6:checked ~ #contentE6,
+#buttonE7:checked ~ #contentE7,
+#buttonE8:checked ~ #contentE8,
+#buttonE9:checked ~ #contentE9, 
+#buttonE10:checked ~ #contentE10 {
     display: block;
+}
+
+.empty{
+    width: auto;
+    height: 10px;
 }
 
