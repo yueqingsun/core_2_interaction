@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(63, 59, 59);
+}
+
+.all{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+h1{
+    display: inline-block;
+    width: 490px;
+    position: absolute;
+    z-index: 5;
+    transform: translate(-50%,-50%);
+    top:-320px;
+    color: rgb(255, 255, 255);
+}
+
+#E1{
+    position: absolute;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    top:-10px;
+    background-color: aquamarine;
+    width:490px;
+    height: 500px;
+}
+
+#A1{
+    position: absolute;
+    z-index: 0;
+    transform: translate(-50%,-50%);
+    background-color: aquamarine;
+    width:450px;
+    height: 400px;
+}
+
+#B1{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    top:-130px;
+    background-color: rgb(72, 143, 119);
+    width:450px;
+    height: 65px;
+}
+
+#B2{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    top:167.5px;
+    background-color: rgb(72, 143, 119);
+    width:320px;
+    height:65px;
+}
+#C1{
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    top:7.5px;
+    left:-10px;
+    background-color: rgb(121, 72, 143);
+    width:385px;
+    height:255px;
+}
+#D1{
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+    top:-110px;
+    left:-10px;
+    background-color:rgb(212, 93, 109);
+    width:385px;
+    height:25px;
+} 
+#D2{
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+    top:8px;
+    left:-125px;
+    background-color:rgb(167, 84, 95);
+    width:70px;
+    height:125px;
+}
+#D3{
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+    top:8px;
+    left:115px;
+    background-color:rgb(167, 84, 95);
+    width:90px;
+    height:125px;
+}
+#D4{
+    position: absolute;
+    z-index: 3;
+    transform: translate(-50%,-50%);
+    top:102.5px;
+    background-color:rgb(143, 72, 81);
+    width:320px;
+    height:65px;
+}
+#B3{
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    top:30px;
+    left:-125px;
+    background-color: rgb(111, 240, 197);
+    width:40px;
+    height: 80px;
+}
+
+#B4{
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    top:30px;
+    left:110px;
+    background-color: rgb(111, 240, 197);
+    width:40px;
+    height: 80px;
+}
