@@ -1,6 +1,9 @@
+setInterval(function() {
+
 // 按照颜色将方块分组
-let A =document.querySelectorAll(".A")
+let A = document.querySelectorAll(".A")
 let B = document.querySelectorAll(".B")
+// let B1 = document.getElementById("B1")
 let C = document.querySelectorAll(".C")
 let D = document.querySelectorAll(".D")
 let E = document.querySelectorAll(".E")
@@ -34,15 +37,37 @@ D[1].style.backgroundColor=randomColorD
 D[2].style.backgroundColor=randomColorD
 D[3].style.backgroundColor=randomColorD
 E[0].style.backgroundColor=randomColorE
+// for(let div of A){
+//     div.style.backgroundColor=randomColorA
+// }
+// for(let div of B){
+//     div.style.backgroundColor="red"
+// }
+// for(let div of C){
+//     div.style.backgroundColor=randomColorC
+// }
+// for(let div of D){
+//     div.style.backgroundColor=randomColorD
+// }
+// for(let div of E){
+//     div.style.backgroundColor=randomColorE
+// }
 
-function refreshPage() {
-    window.location.reload(); // 重新加载页面
-}
+// B.style.backgroundColor="red"
+// document.querySelectorAll(".B").style.backgroundColor="red"
 
-// 每 5 秒自动刷新页面
-setTimeout(refreshPage, 2000);
+// function refreshPage() {
+//     window.location.reload(); // 重新加载页面
+// }
 
-console.log(A)
+// // 每 5 秒自动刷新页面
+// setTimeout(refreshPage, 2000);
+
+// console.log(A)
 console.log(B)
-console.log(randomA)
-console.log(randomColorA)
+console.log(B1)
+
+// B1.style.backgroundColor = "red"
+// console.log(randomA)
+// console.log(randomColorA)
+}, 1000)

@@ -1,5 +1,6 @@
 body{
     background-color: rgb(63, 59, 59);
+    /* transition: 0.3s; */
 }
 
 .all{
@@ -7,6 +8,7 @@ body{
     transform: translate(-50%,-50%);
     left:50%;
     top:50%;
+    
 }
 h1{
     display: inline-block;
@@ -23,18 +25,20 @@ h1{
     z-index: -1;
     transform: translate(-50%,-50%);
     top:-10px;
-    background-color: aquamarine;
+    background-color: rgb(127, 193, 255);
     width:490px;
     height: 500px;
+    transition:0.3s;
 }
 
 #A1{
     position: absolute;
     z-index: 0;
     transform: translate(-50%,-50%);
-    background-color: aquamarine;
+    background-color: rgb(255, 214, 81);
     width:450px;
     height: 400px;
+    transition:0.3s;
 }
 
 #B1{
@@ -42,9 +46,10 @@ h1{
     z-index: 1;
     transform: translate(-50%,-50%);
     top:-130px;
-    background-color: rgb(72, 143, 119);
+    background-color: rgb(111, 240, 197);
     width:450px;
     height: 65px;
+    transition:0.3s;
 }
 
 #B2{
@@ -52,9 +57,10 @@ h1{
     z-index: 1;
     transform: translate(-50%,-50%);
     top:167.5px;
-    background-color: rgb(72, 143, 119);
+    background-color: rgb(111, 240, 197);
     width:320px;
     height:65px;
+    transition:0.3s;
 }
 #C1{
     position: absolute;
@@ -62,9 +68,10 @@ h1{
     transform: translate(-50%,-50%);
     top:7.5px;
     left:-10px;
-    background-color: rgb(121, 72, 143);
+    background-color: rgb(162, 110, 186);
     width:385px;
     height:255px;
+    transition:0.3s;    
 }
 #D1{
     position: absolute;
@@ -72,9 +79,10 @@ h1{
     transform: translate(-50%,-50%);
     top:-110px;
     left:-10px;
-    background-color:rgb(212, 93, 109);
+    background-color:rgb(247, 211, 162);
     width:385px;
     height:25px;
+    transition:0.3s;
 } 
 #D2{
     position: absolute;
@@ -82,9 +90,10 @@ h1{
     transform: translate(-50%,-50%);
     top:8px;
     left:-125px;
-    background-color:rgb(167, 84, 95);
+    background-color:rgb(247, 211, 162);
     width:70px;
     height:125px;
+    transition:0.3s;
 }
 #D3{
     position: absolute;
@@ -92,18 +101,20 @@ h1{
     transform: translate(-50%,-50%);
     top:8px;
     left:115px;
-    background-color:rgb(167, 84, 95);
+    background-color:rgb(247, 211, 162);
     width:90px;
     height:125px;
+    transition:0.3s;
 }
 #D4{
     position: absolute;
     z-index: 3;
     transform: translate(-50%,-50%);
     top:102.5px;
-    background-color:rgb(143, 72, 81);
+    background-color:rgb(247, 211, 162);
     width:320px;
     height:65px;
+    transition:0.3s;
 }
 #B3{
     position: absolute;
@@ -114,6 +125,7 @@ h1{
     background-color: rgb(111, 240, 197);
     width:40px;
     height: 80px;
+    transition:0.3s;
 }
 
 #B4{
@@ -125,4 +137,5 @@ h1{
     background-color: rgb(111, 240, 197);
     width:40px;
     height: 80px;
+    transition:0.3s;
 }

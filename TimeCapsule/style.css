@@ -5,7 +5,7 @@ html{
 body{
     /* margin:50px; */
     margin:3vw;
-    background-color: rgb(51, 46, 40);
+    background-color: rgb(117, 38, 56);
     font-family: "komet", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -21,7 +21,7 @@ a {
     position: relative;
     width: 120px;
     height: 120px;
-    margin:10px;
+    margin:20px;
     /* background-color: aliceblue; */
 }
 
@@ -35,17 +35,25 @@ a {
     opacity: 0;
     pointer-events: none;
     text-align: center;
+    z-index: 2;
 }
 
 .cataimg{
-    width: 120px;
+    width: 90px;
     height: 120px;
+    transform: rotate(45deg);
     position: absolute;
+    box-shadow: 5px 5px 10px rgba(80, 10, 33, 0.5);
+    background-color: #ffe4ca;
+    border-radius: 100%;
+    transition: 0.3s;
 }
 
 .cataimg:hover{
-    transform: scale(1.2);
+    width: 120px;
+    transform: scale(1.8);
     transition: 0.3s;
+    z-index: 2;
 
 }
 
@@ -66,6 +74,7 @@ summary{
     margin: 20px;
     color: aliceblue;
     cursor: pointer;
+    pointer-events: all;
 }
 
 details > summary::before {
@@ -92,11 +101,12 @@ details[open] > summary::before {
     /* top:800px; */
     width: auto;
     height:400px;
-    background-color: rgb(104, 88, 79);
+    background-color: rgb(231, 106, 144);
     /* border:outset #ffeaa5 20px; */
     border-radius: 30px;
     padding: 3vw;
     margin-bottom:200px;
+    box-shadow: 5px 5px 20px rgba(71, 12, 46, 0.5);
 }
 
 .content {
@@ -122,7 +132,10 @@ details[open] > summary::before {
     width:650px;
     height:650px;
     animation: rotate 8s linear infinite;
-    /* background-color: #ff0000; */
+    /* background-color: #ff0000; */    
+    border:10px solid #ffcad7;
+    background-color: #ffc04c5e;
+    border-radius: 100%;
 }
 @keyframes rotate {
     from {

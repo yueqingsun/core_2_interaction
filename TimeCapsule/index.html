@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/kpz8lbe.css">
-    <title>Document</title>
+    <title>TheAbandonedCDs</title>
 </head>
 <body>
     <div>
@@ -433,25 +433,6 @@
         
     </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    var audioElements = document.querySelectorAll(audio);
-
-    audioElements.forEach(function(audio) {
-        audio.addEventListener('play', function() {
-            pauseAllExcept(audio);
-        });
-    });
-
-    function pauseAllExcept(currentAudio) {
-        audioElements.forEach(function(audio) {
-            if (audio !== currentAudio) {
-                audio.pause();
-            }
-        });
-    }
-});
-</script>
 
 </body>
 </html>
