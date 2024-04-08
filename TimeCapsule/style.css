@@ -54,6 +54,7 @@ a {
     transform: scale(1.8);
     transition: 0.3s;
     z-index: 2;
+    background-color: #ffc04c;
 
 }
 
