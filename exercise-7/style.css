@@ -55,14 +55,8 @@ h1{
       }
 }
 
-/* img{
-    width:300px;
-    height:300px;
-} */
+
 .head{
-    /* position: absolute;
-    left:50%;
-    top:50%; */
     width:300px;
     height:300px;
     position: relative;
@@ -76,7 +70,7 @@ h1{
     z-index: 1;
     position: relative;
     transform: translate(-50%,-50%);
-    top:0px;
+    /* top:0px; */
     left:300px;
     width:600px;
     height:600px;
@@ -97,11 +91,9 @@ h1{
     margin-bottom: 10px; 
 }
 .row {
-    width: 100%; /* 或者其他适当的宽度 */
+    width: 100%; 
     display: flex;
     justify-content: center;
-    /* margin: 10px;  */
-    /* margin-bottom: 10px;  */
 }
 
 .button{
