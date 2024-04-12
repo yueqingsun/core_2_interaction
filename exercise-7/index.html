@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kpz8lbe.css">
+    <title>exercise-7</title>
+</head>
+<body>
+    <h1>Generate A Ugly (???)</h1>
+    <div class="container">
+        <div class="pics">
+            <div id="headDiv"><img src="head1.png" class="head" id="head"></div>
+            <div id="decDiv"><img src="dec1.png" class="dec" id="dec"></div>
+        </div>
+        <div class="control">
+            <div class="row">
+                <input type="button" class="button" id="decSet"value="Grab A Deco" onclick="grabADec()">
+                <input type="range" id="decSize" max="600" min="200" value="400" oninput="decSize()">
+                <input type="range" id="decHori" max="600" min="0" value="300" oninput="decHori()">
+                <input type="range" id="decVerti" max="300" min="-300" value="0" oninput="decVerti()">
+                <!-- <input type="range" id="decRo" max="360" min="0" value="180" oninput="decRo()"> -->
+            </div>
+            <div class="row">
+                <input type="button" class="button"  id="headSet" value="Grab A Head" onclick="grabAHead()">            
+                <input type="range" id="headSize" max="600" min="100" value="350" oninput="headSize()">
+                <input type="range" id="headHori" max="600" min="0" value="300" oninput="headHori()">
+                <input type="range" id="headVerti" max="600" min="0" value="300" oninput="headVerti()">
+                <!-- <input type="range" id="headRo" max="360" min="0" value="180" oninput="headRo()"> -->
+            </div>            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

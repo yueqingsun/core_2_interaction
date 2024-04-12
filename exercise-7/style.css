@@ -1,0 +1,123 @@
+body{
+    overflow: hidden;
+    background-color: rgb(255, 202, 233);
+    font-family: "marvin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    display: inline-block;
+    /* background-color: aquamarine; */
+    width:600px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:10%; 
+    text-align: center;
+    font-size: 50px;
+    color: rgb(133, 6, 27);
+}
+
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;    
+}
+
+
+.pics{
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    width: 600px;
+    height: 600px;
+    /* background-color: rgb(97, 139, 175); */
+    border-radius: 35px;
+    border:dotted rgb(201, 78, 105);
+    border-width: 10px;
+    animation: shin 2s infinite;
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+@keyframes shin{
+    0% {
+        border-color: rgb(201, 78, 105);
+      }
+      50% {
+        border-color: rgba(201, 78, 105, 0.158);
+      }
+      100% {
+        border-color: rgb(201, 78, 105);
+      }
+}
+
+/* img{
+    width:300px;
+    height:300px;
+} */
+.head{
+    /* position: absolute;
+    left:50%;
+    top:50%; */
+    width:300px;
+    height:300px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left:300px;
+    top:300px;
+    z-index: 2;
+    opacity: 0;
+}
+.dec{
+    z-index: 1;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top:0px;
+    left:300px;
+    width:600px;
+    height:600px;
+    opacity: 0;
+}
+
+.control{
+    position: relative;
+    z-index: 4;
+    top:380px;
+    /* background-color: aqua; */
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+.row {
+    width: 100%; /* 或者其他适当的宽度 */
+    display: flex;
+    justify-content: center;
+    /* margin: 10px;  */
+    /* margin-bottom: 10px;  */
+}
+
+.button{
+    display: inline-block;
+    height:40px;
+    width:160px;
+    font-size: 16px;
+    border-radius: 20px;
+    border:0;
+    background-color: rgb(206, 79, 107);
+    color:aliceblue;
+    cursor:pointer;
+    font-family: "marvin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+input{
+    margin: 10px;
+}
