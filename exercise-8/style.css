@@ -1,0 +1,53 @@
+body{
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width:90vw;
+    height: 100vh; 
+    margin:auto;
+    /* background-color: antiquewhite; */
+}
+#hour{
+    width:100%;
+    height:50px;
+    background-color: blueviolet;
+    margin-bottom:10px;
+    transition: 1s;
+}
+#min{
+    width:100%;
+    height:50px;
+    background-color: blueviolet;
+    margin-bottom:10px;
+    transition: 1s;
+}
+#sec{
+    width:100%;
+    height:50px;
+    background-color: blueviolet;
+    margin-bottom:10px;
+    transition: 1s;
+}
+#milisec{
+    width:100%;
+    height:50px;
+    background-color: blueviolet;
+    margin-bottom:10px;
+    transition: 0.001s;
+}
+#time{
+    /* width:100%; */
+    height: 80px;
+    /* background-color: rgba(137, 43, 226, 0.26); */
+    margin-bottom:10px;
+    /* transition: 1s; */
+    font-size: xx-large;
+    color:rgb(255, 191, 95);
+    font-weight: bolder;
+}
