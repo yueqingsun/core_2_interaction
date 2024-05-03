@@ -1,0 +1,160 @@
+body{
+    overflow-y: hidden;
+    margin: 0;
+    background-color: rgb(255, 123, 0);
+}
+
+.container {
+    width: 350vw; /* Make the container wider than the viewport */
+    height: 80vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+.timezone{
+    width:348vw;
+    height:18vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+    align-items: center; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0.1vh;
+}
+
+.timezoneblock{
+    width:12vw;
+    height:12vh;
+    /* background-color: black; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.timezoneblock1{
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom: 1.5vh;
+}
+.timezoneblock2{
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom: 1.5vh;
+}
+.timezoneblock3{
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom: 1.5vh;
+}
+.timezoneblock4{
+    height:2.5vh;
+    /* background-color: rgb(115, 84, 255); */
+    text-align: left;
+    color: rgb(115, 84, 255);
+    font-size: larger;
+    font-weight: bolder;
+}
+#clock{
+    /* display: flex; */    
+    justify-content:center;
+    align-items: center; 
+    /* position: absolute; */
+    display:inline-block;
+    width:350vw;
+    height:48vh;
+    /* background-color: rgb(143, 103, 217); */
+    margin-left:auto;
+    margin-right:auto;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 3.8vh;
+    line-height: 80%;
+    color: rgb(115, 84, 255);
+}
+
+.date{
+    position: fixed;
+    transform: translate(-50%,-50%);
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: repeat(4, auto); */
+    justify-items: center;
+    align-items: center;
+    left:50%;
+    top:88vh;
+    width: 95vw;
+    height:14vh;
+    /* background-color: bisque; */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#hour{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom:10px;
+    transition: 1s;
+}
+#min{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom:10px;
+    transition: 1s;
+}
+#sec{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom:10px;
+    transition: 1s;
+}
+#milisec{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255);
+    margin-bottom:10px;
+    transition: 0.001s;
+}
+#time{
+    /* width:100%; */
+    height: 80px;
+    /* background-color: rgba(137, 43, 226, 0.26); */
+    margin-bottom:10px;
+    /* transition: 1s; */
+    font-size: xx-large;
+    color:rgb(48, 48, 48);
+    font-weight: bolder;
+}
+#datedefault1{
+    width:100%;
+    height:2.5vh;
+    background-color: rgba(115, 84, 255, 0.5);
+    margin-bottom:10px;
+    transition: 1s;
+}
+#datedefault2{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255, 0.5);
+    margin-bottom:10px;
+    transition: 1s;
+}
+#datedefault3{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255, 0.5);
+    margin-bottom:10px;
+    transition: 1s;
+}
+#datedefault4{
+    width:100%;
+    height:2.5vh;
+    background-color: rgb(115, 84, 255, 0.5);
+    margin-bottom:10px;
+    transition: 0.001s;
+}

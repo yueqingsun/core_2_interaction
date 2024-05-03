@@ -35,17 +35,6 @@ function timeDiv(){
     time.innerHTML=currentHour+":"+currentMin+":"+currentSec+":"+currentMiliSec
 
 }
-    // function(){
-    //     if(currentHour < 10){
-    //         let showHour = "0"+currentHour
-    //     }else{
-    //         let showHour = currentHour
-    //     }
-    // }
-    
-    
-    
-
     setInterval(timeDiv, 1);
 
 function map(value, low1, high1, low2, high2){
