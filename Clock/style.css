@@ -1,7 +1,8 @@
 body{
     overflow-y: hidden;
     margin: 0;
-    background-color: rgb(255, 123, 0);
+    background-color: hsl(29, 100%, 50%);
+    transition: 10s;
 }
 
 .container {
@@ -29,27 +30,34 @@ body{
 .timezoneblock{
     width:12vw;
     height:12vh;
+    transition: 1s;
     /* background-color: black; */
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
+    
 }
 .timezoneblock1{
     height:2.5vh;
     background-color: rgb(115, 84, 255);
     margin-bottom: 1.5vh;
 }
+
 .timezoneblock2{
     height:2.5vh;
     background-color: rgb(115, 84, 255);
     margin-bottom: 1.5vh;
+    transition: 1s;
 }
 .timezoneblock3{
     height:2.5vh;
     background-color: rgb(115, 84, 255);
     margin-bottom: 1.5vh;
+    transition: 1s;
+    
 }
 .timezoneblock4{
+    display: inline-block;
     height:2.5vh;
     /* background-color: rgb(115, 84, 255); */
     text-align: left;
@@ -57,6 +65,20 @@ body{
     font-size: larger;
     font-weight: bolder;
 }
+
+.timezoneblock4:hover{
+    color: rgb(255, 255, 255);
+    /* opacity: 0; */
+    transition:5s;
+    /* transform: scale(0.5); */
+}
+
+/* .timezoneblock4:hover ~ .timezoneblock1,
+.timezoneblock4:hover ~ .timezoneblock2,
+.timezoneblock4:hover ~ .timezoneblock3{
+    opacity: 0;
+} */
+
 #clock{
     /* display: flex; */    
     justify-content:center;
@@ -73,6 +95,12 @@ body{
     font-size: 3.8vh;
     line-height: 80%;
     color: rgb(115, 84, 255);
+}
+
+#clock:hover{
+    color:white;
+    opacity: 0;
+    transition:2s;
 }
 
 .date{
@@ -151,10 +179,20 @@ body{
     margin-bottom:10px;
     transition: 1s;
 }
-#datedefault4{
+/* #datedefault4{
     width:100%;
     height:2.5vh;
     background-color: rgb(115, 84, 255, 0.5);
     margin-bottom:10px;
     transition: 0.001s;
+} */
+
+.timezoneblock1:hover,
+.timezoneblock2:hover,
+.timezoneblock3:hover,
+#hour:hover,
+#min:hover,
+#sec:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 3s;
 }

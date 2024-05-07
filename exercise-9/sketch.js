@@ -71,12 +71,6 @@ function draw(){
     line(373,450,427,450)
     //嘴
 
-    // rectMode(CENTER);
-    // noStroke();
-    // fill("#623037");
-    // rect(400,450,60,10);
-    //嘴
-
     noStroke();
     fill("#623037");
     ellipse(470,440,10,10);
